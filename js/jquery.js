@@ -44,6 +44,11 @@ $(document).ready(function () {
 			$("#item").val("");
 		}
 	});
+	
+	$("ul").on("click", "li", function (ev) {
+//		$(this).addClass("done");
+		$(this).toggleClass("done");	// somehow this works to remove or add the class.
+	});
 
 
 //		**********************

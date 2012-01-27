@@ -1,3 +1,28 @@
 @charset "utf-8";
 /* CSS Document */
 
+html {
+	background-color:#999;
+
+}
+
+body {
+
+	margin: 3em auto;
+	padding: 2em;
+	width:600px;
+	
+	background-color:#CCCCCC;
+	
+	font-family:Arial, Helvetica, sans-serif;
+
+	
+	-webkit-box-shadow: 4px 4px 4px 4px ;
+	-moz-box-shadow: 4px 4px 4px 4px ;
+	box-shadow: 4px 4px 4px 4px ; 
+}
+
+.done {
+	color:#666;
+	text-decoration:line-through;
+}
